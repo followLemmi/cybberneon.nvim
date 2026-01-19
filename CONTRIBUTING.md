@@ -1,6 +1,6 @@
-# Contributing to cyberdyne-port.nvim
+# Contributing to cyberneon.nvim
 
-Thank you for your interest in contributing to cyberdyne-port.nvim!
+Thank you for your interest in contributing to cyberneon.nvim!
 
 ## How to Contribute
 
@@ -56,4 +56,4 @@ Before submitting:
 
 Feel free to open an issue for any questions about contributing!
 
-Thank you for making cyberdyne-port.nvim better!
+Thank you for making cyberneon.nvim better!

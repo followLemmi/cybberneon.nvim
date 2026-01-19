@@ -1,5 +1,5 @@
--- cyberdyne-port theme for Neovim
--- Based on Ghostty Cyberdyne color scheme
+-- cyberneon theme for Neovim
+-- Inspired by Ghostty Cyberdyne color scheme
 
 vim.cmd("hi clear")
 if vim.fn.exists("syntax_on") then
@@ -7,7 +7,7 @@ if vim.fn.exists("syntax_on") then
 end
 
 vim.o.termguicolors = true
-vim.g.colors_name = "cyberdyne-port"
+vim.g.colors_name = "cyberneon"
 
 -- Color Palette from Ghostty Cyberdyne
 local colors = {

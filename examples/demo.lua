@@ -1,4 +1,4 @@
--- cyberdyne-port.nvim theme demo
+-- cyberneon.nvim theme demo
 -- This file demonstrates syntax highlighting with the theme
 
 -- Module definition

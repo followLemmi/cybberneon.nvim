@@ -1,5 +1,5 @@
 /**
- * cyberdyne-port.nvim theme demo
+ * cyberneon.nvim theme demo
  * TypeScript syntax highlighting example
  */
 

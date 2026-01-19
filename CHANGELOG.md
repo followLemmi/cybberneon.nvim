@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Initial release of cyberdyne-port.nvim
+- Initial release of cyberneon.nvim
 - Full color scheme based on Ghostty Cyberdyne
 - TreeSitter support
 - LSP diagnostics integration

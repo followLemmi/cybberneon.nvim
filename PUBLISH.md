@@ -1,6 +1,6 @@
 # Publishing Guide
 
-This guide will help you publish cyberdyne-port.nvim to GitHub.
+This guide will help you publish cyberneon.nvim to GitHub.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ This guide will help you publish cyberdyne-port.nvim to GitHub.
 ### 1. Create a new repository on GitHub
 
 1. Go to https://github.com/new
-2. Repository name: `cyberdyne-port.nvim`
+2. Repository name: `cyberneon.nvim`
 3. Description: `A cyberpunk-inspired Neovim colorscheme based on Ghostty Cyberdyne`
 4. Choose Public
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
@@ -24,10 +24,10 @@ This guide will help you publish cyberdyne-port.nvim to GitHub.
 Replace `yourusername` with your actual GitHub username:
 
 ```bash
-cd ~/workspace/lemsoft/cyberdyne-port.nvim
+cd ~/workspace/lemsoft/cyberneon.nvim
 
 # Add remote
-git remote add origin https://github.com/yourusername/cyberdyne-port.nvim.git
+git remote add origin https://github.com/yourusername/cyberneon.nvim.git
 
 # Rename branch to main (optional, but recommended)
 git branch -M main

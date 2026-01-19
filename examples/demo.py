@@ -1,5 +1,5 @@
 """
-cyberdyne-port.nvim theme demo
+cyberneon.nvim theme demo
 This file demonstrates Python syntax highlighting
 """
 
@@ -165,7 +165,7 @@ finally:
 
 # Context manager
 with open("example.txt", "w") as f:
-    f.write("Hello, cyberdyne-port!")
+    f.write("Hello, cyberneon!")
 
 
 # Decorators
@@ -192,6 +192,6 @@ def slow_function(n: int) -> int:
 
 
 if __name__ == "__main__":
-    print(f"cyberdyne-port.nvim demo v{VERSION}")
+    print(f"cyberneon.nvim demo v{VERSION}")
     result = slow_function(1000000)
     print(f"Result: {result}")

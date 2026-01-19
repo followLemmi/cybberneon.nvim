@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get started with **cyberdyne-port.nvim** in under 5 minutes!
+Get started with **cyberneon.nvim** in under 5 minutes!
 
 ## 1. Installation
 
@@ -10,11 +10,11 @@ Add to your `~/.config/nvim/lua/plugins/colorscheme.lua`:
 
 ```lua
 return {
-  "yourusername/cyberdyne-port.nvim",
+  "yourusername/cyberneon.nvim",
   lazy = false,
   priority = 1000,
   config = function()
-    vim.cmd([[colorscheme cyberdyne-port]])
+    vim.cmd([[colorscheme cyberneon]])
   end,
 }
 ```
@@ -25,11 +25,11 @@ Before installing, you can test the theme:
 
 ```bash
 # Clone to a temporary location
-git clone https://github.com/yourusername/cyberdyne-port.nvim ~/.local/share/nvim/temp-themes/cyberdyne-port.nvim
+git clone https://github.com/yourusername/cyberneon.nvim ~/.local/share/nvim/temp-themes/cyberneon.nvim
 
 # In Neovim, run:
-# :set runtimepath+=~/.local/share/nvim/temp-themes/cyberdyne-port.nvim
-# :colorscheme cyberdyne-port
+# :set runtimepath+=~/.local/share/nvim/temp-themes/cyberneon.nvim
+# :colorscheme cyberneon
 ```
 
 ## 2. Activate the Theme
@@ -39,7 +39,7 @@ git clone https://github.com/yourusername/cyberdyne-port.nvim ~/.local/share/nvi
 In your config file (init.lua or plugins/colorscheme.lua):
 
 ```lua
-vim.cmd([[colorscheme cyberdyne-port]])
+vim.cmd([[colorscheme cyberneon]])
 ```
 
 ### Option B: Try it first
@@ -47,7 +47,7 @@ vim.cmd([[colorscheme cyberdyne-port]])
 Just run in Neovim:
 
 ```vim
-:colorscheme cyberdyne-port
+:colorscheme cyberneon
 ```
 
 ## 3. Verify It Works
@@ -67,7 +67,7 @@ The theme works great out of the box, but you can customize it by copying and mo
 Try opening the demo files to see the theme in action:
 
 ```bash
-cd ~/.local/share/nvim/lazy/cyberdyne-port.nvim/examples
+cd ~/.local/share/nvim/lazy/cyberneon.nvim/examples
 nvim demo.lua
 nvim demo.py
 nvim demo.ts
