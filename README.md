@@ -7,7 +7,7 @@ Dark blue depths meet acid green highlights in this futuristic theme that brings
 ## Screenshots
 
 ![Code Example](screenshots/code-example.png)
-![Dashboard](screenshots/dashboard.png)
+![LSP Diagnostic](screenshots/lsp-diagnostic.png)
 
 ## ✨ Features
 
