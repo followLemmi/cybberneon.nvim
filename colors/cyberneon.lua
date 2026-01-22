@@ -256,15 +256,16 @@ hi("NeoTreeTitleBar", { fg = colors.cyan, bg = colors.bg_dark, style = "bold" })
 hi("NeoTreeFloatNormal", { fg = colors.foreground, bg = colors.bg_dark })
 hi("NeoTreeMessage", { fg = colors.foreground, bg = colors.bg_dark })
 
--- Snacks.explorer
-hi("SnacksExplorerNormal", { fg = colors.white, bg = colors.bg_dark })
-hi("SnacksExplorerNormalNC", { fg = colors.white, bg = colors.bg_dark })
-hi("SnacksExplorerDirectory", { fg = colors.cyan })
-hi("SnacksExplorerFile", { fg = colors.white })
-hi("SnacksExplorerGitAdded", { fg = colors.green })
-hi("SnacksExplorerGitModified", { fg = colors.yellow })
-hi("SnacksExplorerGitDeleted", { fg = colors.red })
-hi("SnacksExplorerGitUntracked", { fg = colors.comment })
+-- Snacks.picker / Snacks.explorer
+hi("SnacksPickerDir", { fg = colors.cyan })
+hi("SnacksPickerFile", { fg = colors.white })
+hi("SnacksPickerPathHidden", { fg = colors.comment })
+hi("SnacksPickerPathIgnored", { fg = colors.comment })
+hi("SnacksPickerMatch", { fg = colors.yellow, style = "bold" })
+hi("SnacksPickerGitStatusAdded", { fg = colors.green })
+hi("SnacksPickerGitStatusModified", { fg = colors.yellow })
+hi("SnacksPickerGitStatusDeleted", { fg = colors.red })
+hi("SnacksPickerGitStatusUntracked", { fg = colors.comment })
 
 -- Which-key
 hi("WhichKey", { fg = colors.cyan })
